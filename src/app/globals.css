@@ -30,4 +30,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+}
+
+@layer components {
+  .menu-button {
+    @apply mx-12 my-2 pl-4 pr-4 py-5 
+    bg-slate-700 rounded-3xl font-Bebas_Neue 
+    text-left text-3xl transition ease-in-out 
+    delay-75 hover:bg-slate-800 shadow-xl;
+  }
 }

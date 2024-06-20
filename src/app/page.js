@@ -1,31 +1,16 @@
 'use client'
-import React from 'react';
+import React, { useState } from 'react';
 
-import Sidebar from "./sidebar";
-import AnimatedCursor from 'react-animated-cursor';
+import CustomCursor from "./Components/animatedCursor";
+import Sidebar from "./Components/sidebar";
 
 export default function Home() {
-  return (
-    <main className="flex flex-row h-dvh bg-slate-700">
-      <Sidebar />
-      <AnimatedCursor 
-        innerSize={20}
-        outerSize={8}
-        color='30, 41, 59'
+  const [location, setLocation] = useState('Home');
 
-        clickables={[
-          'a',
-          'input[type="text"]',
-          'input[type="email"]',
-          'input[type="number"]',
-          'input[type="submit"]',
-          'input[type="image"]',
-          'label[for]',
-          'select',
-          'textarea',
-          'button',
-          '.link',]}
-          />
+  return (
+    <main className="flex flex-row h-dvh bg-slate-800">
+      <Sidebar />
+      <CustomCursor />
     </main>
   );
 }
