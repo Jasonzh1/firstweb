@@ -8,6 +8,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+.background {
+  background-color: #1e293b;
+  background-image: url(topography.svg)
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -34,10 +39,25 @@ body {
 }
 
 @layer components {
+
   .menu-button {
     @apply mx-12 my-2 pl-4 pr-4 py-5 
-    bg-slate-700 rounded-3xl font-Bebas_Neue 
+    bg-slate-700/55 rounded-3xl font-Bebas_Neue 
     text-left text-3xl transition ease-in-out 
-    delay-75 hover:bg-slate-800 shadow-xl;
+    delay-75 hover:bg-slate-800/55 shadow-xl hover:border-orange-400 border-4;
+  }
+  
+  .menu-underline {
+    @apply underline decoration-orange-400 decoration-4 underline-offset-4;
+  }
+
+  .heading-underline {
+    @apply underline decoration-orange-400;
+  }
+
+  .bento-box {
+    @apply bg-slate-700/55 place-content-center shadow-xl 
+    rounded-3xl transition ease-in-out delay-150
+    hover:-translate-y-1 hover:scale-105 duration-300;
   }
 }
