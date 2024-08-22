@@ -22,27 +22,25 @@ function BentoBox() {
                 <SectionTitle name={"About Me"}/>
             </div>
             <div className="row-span-3 bento-box px-7">
-                My dream vacation is in Dubai because there are many cool attractions located there. 
-                The world&apos;s tallest skyscraper and a entire man-made island. I also play saxophone. I prefer songs with no words 
-                because it helps me think better.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum eu mi eu cursus. Morbi id eros sed risus cursus rhoncus. Aliquam dictum turpis sit amet ante sollicitudin porta ac eget tortor.
+                Mauris non ligula nec magna efficitur fringilla eu sed odio. Aenean non magna eu nunc suscipit luctus. 
             </div>
             <div className="col-span-2 bento-box px-6">
-                These 3 songs are my favorite song and the ones I listen to the most. I really enjoy 
-                EDM and saxophone partly because I also play saxophone. I prefer songs with no words 
-                because it helps me think better.
+                Aliquam volutpat sagittis fermentum. Fusce eu mollis tellus. Donec tristique lobortis commodo. Donec pellentesque massa non nulla sagittis, ut dignissim orci venenatis. Quisque et urna sit
+                amet urna feugiat viverra nec eu elit. 
             </div>
             <div className="row-span-2 col-span-1 bento-box px-5">
                 <ul className="list-disc list-inside marker:text-orange-400">
-                    <li>Reading</li>
-                    <li>Skiing</li>
-                    <li>Basketball</li>
-                    <li>Coding</li>
-                    <li>Math</li>
-                    <li>Flying</li>
+                    <li>Lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor </li>
+                    <li>sit </li>
+                    <li>amet</li>
+                    <li>consectetur </li>
                 </ul>
             </div>
             <div className="row-span-2 col-span-1 bento-box px-4">
-                You can explore the history of Dubai while living in one of the most technological advanced country.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum
             </div>
         </div>
     );
