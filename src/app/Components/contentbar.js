@@ -49,7 +49,7 @@ function BentoBox() {
 
 function List() {
     return (
-        <div className="flex flex-col pl-20 pr-12 gap-3">
+        <div className="flex flex-col pt-4 pl-20 pr-12 gap-2">
             <SectionTitle name={"Projects"}/>
             <a href="https://github.com/Jasonzh1" className="bento-box mt-6">
                 My Project 1
