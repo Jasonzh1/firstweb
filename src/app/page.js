@@ -1,10 +1,11 @@
 'use client'
-import React, { useState } from 'react';
+import React from 'react';
 
 import CustomCursor from "./Components/animatedCursor";
 import Sidebar from "./Components/sidebar";
 import ContentBar from './Components/contentbar';
 import PopupMsg from './Components/popup';
+import IndexPage from './Components/animation';
 
 export default function Home() {
 
