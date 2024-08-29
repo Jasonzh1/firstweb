@@ -16,7 +16,7 @@ module.exports = {
       },
 
       fontFamily: {
-        serif: ['var(--font-inter)'],
+        sans: ['var(--font-inter)'],
         Bebas_Neue: ['var(--font-bebas-neue)'],
       },
 
