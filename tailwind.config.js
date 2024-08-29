@@ -1,4 +1,4 @@
-const { Bebas_Neue } = require('next/font/google');
+const Bebas_Neue = require('next/font/google');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -16,7 +16,8 @@ module.exports = {
       },
 
       fontFamily: {
-        Bebas_Neue: 'Bebas Neue, sans-serif',
+        serif: ['var(--font-inter)'],
+        Bebas_Neue: ['var(--font-bebas-neue)'],
       },
 
       keyframes: {

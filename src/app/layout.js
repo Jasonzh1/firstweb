@@ -1,7 +1,8 @@
-import { Inter } from "next/font/google";
+import { Inter, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const bebas_neue = Bebas_Neue({ subsets: ["latin"], weight: '400', variable: "--font-bebas-neue" });
 
 export const metadata = {
   title: "Hi I'm Jason",
@@ -11,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.variable} ${bebas_neue.variable}`}>{children}</body>
     </html>
   );
 }
