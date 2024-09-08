@@ -50,7 +50,7 @@ body {
     @apply mx-12 my-2 pl-4 pr-4 py-5 
     bg-neutral-950/55 rounded-3xl font-Bebas_Neue
     text-left text-3xl transition ease-in-out 
-    delay-75 hover:bg-neutral-950 hover:border-orange-400 border-4;
+    delay-75 hover:border-orange-400 border-4;
   }
   
   .menu-underline {
@@ -81,6 +81,10 @@ body {
 
   .text-underline {
     @apply heading-underline decoration-2 decoration-solid;
+  }
+
+  .list-item-style {
+    @apply bento-box mt-3 border-0;
   }
 }
 
