@@ -74,6 +74,10 @@ body {
   .bebas {
     @apply font-Bebas_Neue text-opacity-10;
   }
+
+  .text-underline {
+    @apply heading-underline decoration-2 decoration-solid;
+  }
 }
 
 /* width */

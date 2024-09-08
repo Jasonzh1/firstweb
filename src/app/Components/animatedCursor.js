@@ -5,7 +5,7 @@ export default function CustomCursor() {
         <AnimatedCursor 
         innerSize={18}
         outerSize={8}
-        color='15, 23, 42'
+        color='251, 146, 60'
         outerAlpha={0.5}
         clickables={[
           'a',
