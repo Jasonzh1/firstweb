@@ -50,7 +50,7 @@ body {
     @apply mx-12 my-2 pl-4 pr-4 py-5 
     bg-neutral-950/55 rounded-3xl font-Bebas_Neue
     text-left text-3xl transition ease-in-out 
-    delay-75 hover:bg-black hover:border-orange-400 border-4;
+    delay-75 hover:bg-neutral-950 hover:border-orange-400 border-4;
   }
   
   .menu-underline {
@@ -68,7 +68,11 @@ body {
   }
 
   .popup-animation {
-    @apply transition ease-in delay-75 hover:-translate-y-1 hover:scale-95;
+    @apply transition ease-in delay-100 hover:-translate-y-1 hover:scale-95;
+  }
+
+  .project-animation {
+    @apply popup-animation hover:bg-neutral-950;
   }
 
   .bebas {

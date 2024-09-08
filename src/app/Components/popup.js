@@ -25,7 +25,7 @@ export default function PopupMsg() {
                         <div className="flex flex-col items-start">
                             <h1 className="text-6xl font-Bebas_Neue">Caution Contruction Ahead...</h1>
                             <h2 className="text-lg">This site is currently under development so please pardon the dust.</h2>
-                            <h2 className="text-lg">Grab a hardhat and lets go!</h2>
+                            <h2 className="text-lg">Grab a hardhat and let&apos;s go!</h2>
                         </div>
                     </div>                
                 </button>

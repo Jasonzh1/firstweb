@@ -71,7 +71,7 @@ function List({ Title }) {
     return (
         <div className="flex flex-col mt-8 ml-20 mr-12 gap-0">
             <SectionTitle name={Title}/>
-            <a href="https://github.com/Jasonzh1/Minimal-Type" className="bento-box mt-6 popup-animation border-0">
+            <a href="https://github.com/Jasonzh1/Minimal-Type" className="bento-box mt-6 project-animation border-0">
                 <div className="flex flex-row items-center">
                     <Image
                         src={'/Minimal Type.png'}
@@ -90,7 +90,7 @@ function List({ Title }) {
                     </div>
                 </div>
             </a>
-            <a href="https://github.com/Jasonzh1/FPS-Game" className="bento-box mt-6 popup-animation border-0">
+            <a href="https://github.com/Jasonzh1/FPS-Game" className="bento-box mt-3 project-animation border-0">
                 <div className="flex flex-row items-center">
                     <Image
                         src={'/FPS Game.png'}
@@ -108,7 +108,7 @@ function List({ Title }) {
                     </div>
                 </div>
             </a>
-            <a href="https://github.com/Jasonzh1/1994-Income-Predictor" className="bento-box mt-6 popup-animation border-0">
+            <a href="https://github.com/Jasonzh1/1994-Income-Predictor" className="bento-box mt-3 project-animation border-0">
                 <div className="flex flex-row items-center">
                     <Image
                         src={'/Wage Predictor.png'}
@@ -137,6 +137,9 @@ function Tech() {
     return (
         <div className="flex flex-col mt-8 ml-20 mr-12 gap-0">
             <SectionTitle name={"Technologies"}/>
+            <div className="flex flex-row">
+                
+            </div>
         </div>
     );
 }
