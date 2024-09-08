@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Tilt from 'react-parallax-tilt';
+import Image from 'next/image';
 
 
 
@@ -29,11 +30,11 @@ function SectionTitle({ name }) {
 
 function BentoBox() {
     return (
-        <div className="grid grid-cols-3 grid-row-4 gap-6 mt-12 pl-20 pr-12">
+        <div className="grid grid-cols-3 grid-row-4 gap-6 mt-12 ml-20 mr-12">
             <div className="col-span-3">
                 <SectionTitle name={"About Me"}/>
             </div>
-            <Tilt className="row-span-3 bento-box p-7"
+            <Tilt className="row-span-3 bento-box p-6"
             tiltReverse={true}
             tiltMaxAngleX={10}
             tiltMaxAngleY={10}>
@@ -47,7 +48,7 @@ function BentoBox() {
                 Aliquam volutpat sagittis fermentum. Fusce eu mollis tellus. Donec tristique lobortis commodo. Donec pellentesque massa non nulla sagittis, ut dignissim orci venenatis. Quisque et urna sit
                 amet urna feugiat viverra nec eu elit. 
             </Tilt>
-            <Tilt className="row-span-2 col-span-1 bento-box p-5"
+            <Tilt className="row-span-2 col-span-1 bento-box p-6"
             tiltReverse={true}
             tiltMaxAngleX={13}
             tiltMaxAngleY={10}>
@@ -60,7 +61,7 @@ function BentoBox() {
                     <li>consectetur </li>
                 </ul>
             </Tilt>
-            <Tilt className="row-span-2 col-span-1 bento-box p-4"
+            <Tilt className="row-span-2 col-span-1 bento-box p-6"
             tiltReverse={true}
             tiltMaxAngleX={13}
             tiltMaxAngleY={10}>            
@@ -73,10 +74,21 @@ function BentoBox() {
 
 function List({ Title }) {
     return (
-        <div className="flex flex-col mt-8 pl-20 pr-12 gap-1">
+        <div className="flex flex-col mt-8 ml-20 mr-12 gap-1">
             <SectionTitle name={Title}/>
-            <a href="https://github.com/Jasonzh1" className="bento-box mt-6 popup-animation">
-                My Project 1
+            <a href="https://github.com/Jasonzh1" className="bento-box mt-6 popup-animation border-0">
+                <div className="flex flex-row items-center">
+                    <Image
+                        src={'/Minimal Type.png'}
+                        alt="Screenshot of application landing page. Big logo with the words Minimal Type."
+                        height={240}
+                        width={260}
+                        className="m-6 rounded-xl"
+                    />
+                    <div className="flex flex-col items-start">
+                            <h1 className="text-3xl font-Bebas_Neue ">Minimal Type</h1>
+                    </div>
+                </div>
             </a>
         </div>
     );
