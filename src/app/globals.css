@@ -90,6 +90,10 @@ body {
   .carousel-tile {
     @apply border-2 p-4 mx-auto bg-black rounded-3xl mt-3 hover:border-orange-400;
   }
+
+  .carousel-title {
+    @apply font-Bebas_Neue text-2xl ml-0 menu-underline decoration-dotted;
+  }
 }
 
 /* width */

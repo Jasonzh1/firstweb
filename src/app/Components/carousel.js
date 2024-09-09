@@ -44,15 +44,17 @@ function FrontEndCarousel() {
           }}
           plugins={[
             Autoplay({
-              delay: 4000,
+              delay: 3000,
+              stopOnMouseEnter: true,
+              stopOnInteraction: false,
             }),
           ]}
           className="w-full" 
           orientation="vertical">
             <CarouselContent className="h-[300px]">
                 <CarouselItem className="basis-1/3 pt-1">
-                    <div className="carousel-tile flex flex-row items-center mx-3 justify-between border-orange-400">
-                        <h1 className="font-Bebas_Neue text-2xl ml-0 menu-underline decoration-dotted">Front End</h1>
+                    <div className="carousel-tile flex flex-row items-center mx-3 justify-between border-orange-400 border-4">
+                        <h1 className="carousel-title">Front End</h1>
                         <Image
                             src={"/Icons/black.svg"}
                             alt="Icon of React logo."
@@ -88,15 +90,17 @@ function ObjectCarousel() {
           }}
           plugins={[
             Autoplay({
-              delay: 5000,
+              delay: 4000,
+              stopOnMouseEnter: true,
+              stopOnInteraction: false,
             }),
           ]}
           className="w-full" 
           orientation="vertical">
             <CarouselContent className="h-[300px]">
                 <CarouselItem className="basis-1/3 pt-1">
-                    <div className="carousel-tile flex flex-row items-center mx-3 justify-between border-orange-400">
-                        <h1 className="font-Bebas_Neue text-2xl ml-0 menu-underline decoration-dotted">Object-Oriented</h1>
+                    <div className="carousel-tile flex flex-row items-center mx-3 justify-between border-orange-400 border-4">
+                        <h1 className="carousel-title">Object-Oriented</h1>
                         <Image
                             src={"/Icons/black.svg"}
                             alt="Black image."
@@ -132,15 +136,17 @@ function ToolCarousel() {
           }}
           plugins={[
             Autoplay({
-              delay: 6000,
+              delay: 5000,
+              stopOnMouseEnter: true,
+              stopOnInteraction: false,
             }),
           ]}
           className="w-full" 
           orientation="vertical">
             <CarouselContent className="h-[300px]">
                 <CarouselItem className="basis-1/3 pt-1">
-                    <div className="carousel-tile flex flex-row items-center mx-3 justify-between border-orange-400">
-                        <h1 className="font-Bebas_Neue text-2xl ml-0 menu-underline decoration-dotted">Tools</h1>
+                    <div className="carousel-tile flex flex-row items-center mx-3 justify-between border-orange-400 border-4">
+                        <h1 className="carousel-title">Tools</h1>
                         <Image
                             src={"/Icons/black.svg"}
                             alt="Black image."
