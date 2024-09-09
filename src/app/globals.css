@@ -86,6 +86,10 @@ body {
   .list-item-style {
     @apply bento-box mt-3 border-0;
   }
+
+  .carousel-tile {
+    @apply border-2 p-4 mx-auto bg-black rounded-3xl mt-3 hover:border-orange-400;
+  }
 }
 
 /* width */
@@ -107,4 +111,9 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ea580c;
+}
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
 }

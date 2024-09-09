@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Tilt from 'react-parallax-tilt';
 import Image from 'next/image';
-
+import TechCarousel from "./carousel";
 
 
 export default function ContentBar() {
@@ -135,27 +135,12 @@ function List({ Title }) {
 
 function Tech() {
     return (
-        <div className="flex flex-col mt-8 ml-20 mr-12 gap-0">
-            <SectionTitle name={"Technologies"}/>
-            <div className="flex-row flex justify-between">
-            <ul className="list-item-style mt-6">
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-            </ul>
-            <ul className="list-item-style mt-6">
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-            </ul>
-            <ul className="list-item-style mt-6">
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-                <li>Hello</li>
-            </ul>
+        <div className="flex flex-col mt-8 ml-20 mr-12 gap-2">
+            <SectionTitle className="self-start" name={"My Tech Stacks"}/>
+            <div className="flex flex-row items-center pt-6">
+                <TechCarousel type={0}/>
+                <TechCarousel type={1}/>
+                <TechCarousel type={2}/>
             </div>
         </div>
     );
