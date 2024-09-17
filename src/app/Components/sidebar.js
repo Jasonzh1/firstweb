@@ -5,7 +5,7 @@ import React from "react";
 export default function Sidebar() {
     return (
         <div className="flex flex-col shrink-0 background fixed w-full h-full">
-            <button className="flex flex-col p-7 px-9 m-12 menu-button w-fit">
+            <button className="flex flex-col p-6 m-12 menu-button w-fit">
                 <h1 className="text-3xl text-white font-Bebas_Neue text-opacity-65">Hi I&apos;m</h1>
                 <h1 className="text-9xl text-white font-Bebas_Neue heading-underline">Jason Zheng</h1>
             </button>
