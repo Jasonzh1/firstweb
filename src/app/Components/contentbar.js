@@ -3,6 +3,7 @@ import Tilt from 'react-parallax-tilt';
 import Image from 'next/image';
 import TechCarousel from "./carousel";
 import ProjectList from "./list";
+import WeatherWidget from "./weatherWidget";
 
 
 export default function ContentBar() {
@@ -61,7 +62,7 @@ function BentoBox() {
             tiltReverse={true}
             tiltMaxAngleX={13}
             tiltMaxAngleY={10}>            
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum
+                <WeatherWidget/>
             </Tilt>
         </div>
     );

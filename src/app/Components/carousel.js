@@ -66,7 +66,7 @@ function FrontEndCarousel() {
                 {FRONTEND.map((key, index) => (
                     <CarouselItem key={index} className="pt-1 basis-1/3">
                         <div className="carousel-tile flex flex-row items-center mx-3 justify-between">
-                        <h1 className="font-Bebas_Neue text-3xl">{key}</h1>
+                        <h1 className="font-Bebas_Neue text-2xl">{key}</h1>
                         <Image
                             src={FRONTENDLINKS[index]}
                             alt={FRONTENDALT[index]}
@@ -112,7 +112,7 @@ function ObjectCarousel() {
                 {OBJECT.map((key, index) => (
                     <CarouselItem key={index} className="pt-1 basis-1/3">
                         <div className="carousel-tile flex flex-row items-center mx-3 justify-between">
-                            <h1 className="font-Bebas_Neue text-3xl">{key}</h1>
+                            <h1 className="font-Bebas_Neue text-2xl">{key}</h1>
                             <Image
                                 src={OBJECTLINKS[index]}
                                 alt={OBJECTALT[index]}
@@ -158,7 +158,7 @@ function ToolCarousel() {
                 {TOOLS.map((key, index) => (
                     <CarouselItem key={index} className="pt-1 basis-1/3">
                         <div className="carousel-tile flex flex-row items-center mx-3 justify-between">
-                            <h1 className="font-Bebas_Neue text-3xl">{key}</h1>
+                            <h1 className="font-Bebas_Neue text-2xl">{key}</h1>
                             <Image
                                 src={TOOLSLINKS[index]}
                                 alt={TOOLSALT[index]}
