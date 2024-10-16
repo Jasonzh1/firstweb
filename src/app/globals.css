@@ -102,6 +102,10 @@ body {
   .carousel-title {
     @apply font-Bebas_Neue text-2xl ml-0 menu-underline decoration-dotted;
   }
+
+  .profile-underline {
+    @apply underline decoration-2 font-semibold
+  }
 }
 
 /* width */

@@ -58,8 +58,8 @@ function FrontEndCarousel() {
                         <Image
                             src={"/Icons/black.svg"}
                             alt="Icon of React logo."
-                            width={45}
-                            height={45}
+                            width={40}
+                            height={40}
                         />
                     </div>
                 </CarouselItem>
@@ -70,8 +70,8 @@ function FrontEndCarousel() {
                         <Image
                             src={FRONTENDLINKS[index]}
                             alt={FRONTENDALT[index]}
-                            width={45}
-                            height={45}
+                            width={40}
+                            height={40}
                         />
                     </div>
                     </CarouselItem>
@@ -116,8 +116,8 @@ function ObjectCarousel() {
                             <Image
                                 src={OBJECTLINKS[index]}
                                 alt={OBJECTALT[index]}
-                                width={45}
-                                height={45}
+                                width={40}
+                                height={40}
                             />
                         </div>
                     </CarouselItem>
@@ -162,8 +162,8 @@ function ToolCarousel() {
                             <Image
                                 src={TOOLSLINKS[index]}
                                 alt={TOOLSALT[index]}
-                                width={45}
-                                height={45}
+                                width={40}
+                                height={40}
                             />
                         </div>
                     </CarouselItem>
