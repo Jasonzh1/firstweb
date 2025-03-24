@@ -17,7 +17,7 @@ export default function WeatherWidget() {
     }, []);
 
     if (!posts.current) return <p>Sorry! I ran out of free API calls lol.</p>
-    if (posts.current.temp < 13) {
+    if (posts.current.temp < 10) {
       cold = "(brrrrr<span className='text-lg'>&#129398;</span>)"
     }
 
