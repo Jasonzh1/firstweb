@@ -5,7 +5,7 @@ export default function ProjectList({ Title }) {
     return (
         <div className="flex flex-col mt-8 ml-20 mr-12 gap-0">
             <SectionTitle name={Title}/>
-            <a href="https://github.com/Jasonzh1/Minimal-Type" className="project-animation list-item-style mt-6 flex flex-row items-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Jasonzh1/Minimal-Type" className="project-animation list-item-style mt-6 flex flex-row items-center">
                 <Image
                     src={'/Minimal Type.png'}
                     alt="Screenshot of application landing page. Big logo with the words Minimal Type."
@@ -22,7 +22,7 @@ export default function ProjectList({ Title }) {
                         applying <a className="text-underline">OOP principals</a> in <a className="text-underline">Java</a> for a scalable, maintainable codebase</h2>
                 </div>
             </a>
-            <a href="https://github.com/Jasonzh1/FPS-Game" className="project-animation list-item-style flex flex-row items-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Jasonzh1/FPS-Game" className="project-animation list-item-style flex flex-row items-center">
                 <Image
                     src={'/FPS Game.png'}
                     alt="Screenshot from First Person Shooter game. Facing mountains and platforms."
@@ -38,7 +38,7 @@ export default function ProjectList({ Title }) {
                     <h2 className="text-sm">FPS and Plaformer game developed with the <a className="text-underline">Unity Engine</a> and C#. Custom assets created in <a className="text-underline">Figma</a> and Blender</h2>
                 </div>
             </a>
-            <a href="https://github.com/Jasonzh1/1994-Income-Predictor" className="project-animation list-item-style flex flex-row items-center">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Jasonzh1/1994-Income-Predictor" className="project-animation list-item-style flex flex-row items-center">
                 <Image
                     src={'/Wage Predictor.png'}
                     alt="Screenshot of scatterplot. Datapoints concentrated in bottom left with two different colours for datapoints."
