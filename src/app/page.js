@@ -118,7 +118,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="group">
-            <Link target="_blank" rel="noopener noreferrer" href="https://github.com/Env-25/envision-site" className="block">
+            <Link target="_blank" rel="noopener noreferrer" href="https://ubcenvision.com/" className="block">
               <div className="flex justify-between items-baseline">
                 <h3 className="font-medium relative w-fit after:absolute after:-bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-left after:scale-x-0 after:bg-muted-foreground after:transition-transform after:duration-300 group-hover:after:scale-x-100">
                    UBC Envision Website
@@ -126,7 +126,7 @@ export default function Home() {
                 <span className="text-sm text-muted-foreground">2024</span>
               </div>
               <p className="text-sm text-muted-foreground mt-1">
-                Updated and modernize the UBC envision website. Used AstroJS. 
+                Updated and modernized the UBC envision website. Used AstroJS. 
               </p>
             </Link>
           </div>
