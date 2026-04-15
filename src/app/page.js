@@ -1,6 +1,7 @@
 import { ThemeToggle } from "@/components/theme-toggle";
 import Entry from "@/components/entry";
 import FadeIn from "@/components/fade-in";
+import ContactEasterEgg from "@/components/contact-easter-egg";
 import Link from "next/link";
 
 export default function Home() {
@@ -117,7 +118,7 @@ export default function Home() {
 
 			<section>
 				<FadeIn>
-					<h2 className="text-lg font-semibold mb-4">Contact</h2>
+					<ContactEasterEgg />
 				</FadeIn>
 				<FadeIn delay={100}>
 					<p className="text-muted-foreground mb-4">
