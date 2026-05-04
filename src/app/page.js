@@ -42,9 +42,9 @@ export default function Home() {
 						index={1}
 						href="https://www.super.com/"
 						title="Software Engineer Intern"
-						date="May 2026 - Aug 2026"
+						date="May 2026 - Present"
 						subtitle="Super.com • San Francisco"
-						description="Product Team - Incoming Summer 2026."
+						description="Core Product Team"
 					/>
 					<Entry
 						index={2}
@@ -58,7 +58,7 @@ export default function Home() {
 						index={3}
 						href="https://github.com/UBC-LFS/Canvas-Flexible-Assessment"
 						title="Project Software Developer"
-						date="Sep 2025 - Present"
+						date="Sep 2025 - Mar 2026"
 						subtitle="UBC LFS • Vancouver"
 						description="Working on a full-stack external Canvas app, built with Django, to save over 10 hours per week for instructors."
 					/>
@@ -80,17 +80,17 @@ export default function Home() {
 				<div className="space-y-2">
 					<Entry
 						index={5}
-						href="https://github.com/ubclaunchpad/Piazza-AI-Plugin"
-						title="Threadsense AI"
-						date="Sep 2025 - Present"
-						description="Developing a chrome extension with UBC Launchpad to easily browse and triage Piazza forums. Using a custom RAG vector database for model context."
-					/>
-					<Entry
-						index={6}
 						href="https://github.com/ubctg/PortfolioBackTestFrontend"
 						title="Post-Trade Dashboard"
 						date="June 2025 - Present"
 						description="Developing a post-trade dashboard to graph returns and visualize portfolio re-balancing based on quant views for UBC Trading Group. Black-Litterman Model on backend to optimize portfolio."
+					/>
+					<Entry
+						index={6}
+						href="https://github.com/ubclaunchpad/Piazza-AI-Plugin"
+						title="Threadsense AI"
+						date="Sep 2025 - Jan 2026"
+						description="Developing a chrome extension with UBC Launchpad to easily browse and triage Piazza forums. Using a custom RAG vector database for model context."
 					/>
 					<Entry
 						index={7}
