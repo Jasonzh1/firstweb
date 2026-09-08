@@ -1,5 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# firstweb
 
-## Personal Website
+Personal website repository for [Jason Zheng](https://jasonzheng.tech), built with Next.js and Tailwind CSS.
 
-Personal website developed with Next.js, Tailwind CSS, and Figma. 
+## Live Site
+
+- https://jasonzheng.tech
+
+## Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000).
+
+## Scripts
+
+- `npm run dev` — start the local development server
+- `npm run build` — build the production bundle
+- `npm run start` — run the production server
+- `npm run lint` — run ESLint
