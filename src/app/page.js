@@ -57,7 +57,7 @@ export default function Home() {
 					<Entry
 						index={3}
 						href="https://github.com/UBC-LFS/Canvas-Flexible-Assessment"
-						title="Project Software Developer"
+						title="Software Developer Intern"
 						date="Sep 2025 - Mar 2026"
 						subtitle="UBC LFS • Vancouver"
 						description="Working on a full-stack external Canvas app, built with Django, to save over 10 hours per week for instructors."
