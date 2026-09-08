@@ -42,7 +42,7 @@ export default function Home() {
 						index={1}
 						href="https://www.super.com/"
 						title="Software Engineer Intern"
-						date="May 2026 - Present"
+						date="May 2026 - Aug 2026"
 						subtitle="Super.com • San Francisco"
 						description="Core Product Team"
 					/>
@@ -50,7 +50,7 @@ export default function Home() {
 						index={2}
 						href="https://dfp.ubc.ca/"
 						title="Research Assistant"
-						date="Jan 2026 - Present"
+						date="Jan 2026 - June 2026"
 						subtitle="UBC CS • Vancouver"
 						description="Working under Professor Robert Xiao and Xincheng Huang on AI-Powered Hyper-realistic Dynamic Telepresence."
 					/>
